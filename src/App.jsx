@@ -1,11 +1,11 @@
 import { useState, createContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar/NavBar';
-import Landing from './components/Landing/Landing';
-import Dashboard from './components/Dashboard/Dashboard';
-import SignupForm from './components/SignupForm/SignupForm';
-import SigninForm from './components/SigninForm/SigninForm';
-import * as authService from '../src/services/authService'; // import the authservice
+import NavBar from './components/NavBar/NavBar.jsx';
+import Landing from './components/Landing/Landing.jsx';
+import Dashboard from './components/Dashboard/Dashboard.jsx';
+import SignupForm from './components/SignupForm/SignupForm.jsx';
+import SigninForm from './components/SigninForm/SigninForm.jsx';
+import * as authService from '../src/services/authService.js'; // import the authservice
 
 export const AuthedUserContext = createContext(null);
 
